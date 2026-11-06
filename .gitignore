@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+usuarios.json
+**/usuarios.json
+*.pem
+*.key
+*.token
+secrets.json
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Editores
+.vscode/
+.idea/
